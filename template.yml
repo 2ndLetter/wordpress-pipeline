@@ -112,7 +112,7 @@ Resources:
                 #S3ObjectKey: !Ref 'SourceS3Key'
                 #RepositoryName: codepipeline-example-codecommit
                 RepositoryName: !Ref RepositoryName
-                BranchName: main
+                BranchName: master
                 PollForSourceChanges: 'false'
               OutputArtifacts:
                 - Name: TemplateSource
