@@ -4,9 +4,12 @@ phases:
   #install:
   #  runtime-versions:
   #    java: corretto11
-  #pre_build:
-  #  commands:
-  #    - echo Nothing to do in the pre_build phase...
+  pre_build:
+    commands:
+      - aws --version
+      - which aws
+      - pip3 install --upgrade --user awscli
+      - aws --version
   build:
     commands:
       - echo Build started on `date`
