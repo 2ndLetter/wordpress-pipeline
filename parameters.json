@@ -1,0 +1,46 @@
+[
+    {
+      "ParameterKey": "ChangeSetName",
+      "ParameterValue": "UpdatePreview-MyWordPressSite"    
+    },
+    {
+      "ParameterKey": "Email",
+      "ParameterValue": "b.matthew.chadwick@gmail.com"    
+    },
+    {
+      "ParameterKey": "PipelineName",
+      "ParameterValue": "WordPress"    
+    },
+    {
+      "ParameterKey": "ProdStackConfig",
+      "ParameterValue": "prod-stack-configuration.json"    
+    },
+    {
+      "ParameterKey": "ProdStackName",
+      "ParameterValue": "Prod-MyWordPressSite"    
+    },
+    {
+      "ParameterKey": "S3Bucket",
+      "ParameterValue": "this-bucket-sldfjsikdjfosijfsiojf"    
+    },
+    {
+      "ParameterKey": "SourceS3Key",
+      "ParameterValue": "wordpress-single-instance.zip"    
+    },
+    {
+      "ParameterKey": "TemplateFileName",
+      "ParameterValue": "wordpress-single-instance.yaml"    
+    },
+    {
+      "ParameterKey": "TestStackConfig",
+      "ParameterValue": "test-stack-configuration.json"    
+    },
+    {
+      "ParameterKey": "RepositoryName",
+      "ParameterValue": "codepipeline-test"    
+    },
+    {
+      "ParameterKey": "TestStackName",
+      "ParameterValue": "Test-MyWordPressSite"    
+    }
+]
