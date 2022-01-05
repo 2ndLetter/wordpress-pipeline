@@ -9,7 +9,7 @@
     },
     {
       "ParameterKey": "PipelineName",
-      "ParameterValue": "WordPress"    
+      "ParameterValue": "wordpress"    
     },
     {
       "ParameterKey": "ProdStackConfig",
@@ -37,7 +37,7 @@
     },
     {
       "ParameterKey": "RepositoryName",
-      "ParameterValue": "codepipeline-test"    
+      "ParameterValue": "wordpress"    
     },
     {
       "ParameterKey": "TestStackName",
